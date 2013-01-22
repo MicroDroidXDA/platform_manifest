@@ -344,9 +344,9 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
 
-  <project name="krislibaeer/android_device_samsung_ariesve" path="device/samsung/ariesve" remote="gh" revision="jb-2.6" /> 
-  <project name="ivendor/android_vendor_samsung_ariesve" path="vendor/samsung/ariesve" remote="gh" revision="jellybean" />
-  <project name="camcory/android_frameworks_native" path="frameworks/native" remote="gh" revision="jellybean" />
-  <project name="camcory/android_frameworks_av" path="frameworks/av" remote="gh" revision="jellybean" />
+  <project name="krislibaeer/android_device_samsung_ariesve" path="device/samsung/ariesve" remote="github" revision="jb-2.6" /> 
+  <project name="ivendor/android_vendor_samsung_ariesve" path="vendor/samsung/ariesve" remote="github" revision="jellybean" />
+  <project name="camcory/android_frameworks_native" path="frameworks/native" remote="github" revision="jellybean" />
+  <project name="camcory/android_frameworks_av" path="frameworks/av" remote="github" revision="jellybean" />
 
 </manifest>
