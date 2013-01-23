@@ -18,7 +18,7 @@
   <default remote="aosp"
            sync-j="4" />
 
-  <project path="pac" name="PAC-man/pac" path="pac" remote="gh" revision="jellybean" >
+  <project path="pac" name="PAC-man/pac" remote="gh" revision="jellybean" >
     <copyfile dest="build-pac.sh" src="build.sh"/>
   </project>
   <project path="pac" name="PAC-man/pac" remote="gh" revision="jellybean" />
