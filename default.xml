@@ -21,8 +21,8 @@
   <project path="pac" name="PAC-man/pac" remote="gh" revision="jellybean" >
     <copyfile dest="build-pac.sh" src="build.sh"/>
   </project>
-  <project path="pac" name="PAC-man/pac" remote="gh" revision="jellybean" />
-    <copyfile dest="build-pac.sh" src="build.sh"/>
+  <project path="build"name="android_build" remote="gh" revision="jellybean" />
+    <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="bionic" name="android_bionic" remote="cm" revision="jellybean" />
