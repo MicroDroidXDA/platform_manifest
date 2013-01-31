@@ -226,8 +226,6 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="jellybean" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="jellybean" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="jellybean" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="jellybean" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="jellybean" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="jellybean" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="jellybean" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="jellybean" />
@@ -345,9 +343,10 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
 
-  <project name="krislibaeer/android_device_samsung_ariesve" path="device/samsung/ariesve" remote="gh" revision="jb-2.6" /> 
+  <project name="ivendor/android_device_samsung_ariesve" path="device/samsung/ariesve" remote="gh" revision="jb-3.0" /> 
   <project name="ivendor/android_vendor_samsung_ariesve" path="vendor/samsung/ariesve" remote="gh" revision="jellybean" />
-  <project name="camcory/android_frameworks_native" path="frameworks/native" remote="gh" revision="jellybean" />
-  <project name="camcory/android_frameworks_av" path="frameworks/av" remote="gh" revision="jellybean" />
-
+  <project name="ivendor/android_frameworks_native" path="frameworks/native" remote="gh" revision="jellybean" />
+  <project name="ivendor/android_frameworks_av" path="frameworks/av" remote="gh" revision="jellybean" />
+  <project name="ivendor/android_hardware_qcom_display" path="hardware/qcom/display" remote="gh" revision="jellybean" />
+  <project name="ivendor/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="gh" revision="jellybean" />
 </manifest>
