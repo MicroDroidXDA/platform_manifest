@@ -210,7 +210,6 @@
   <project groups="default" name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" />
   <project groups="default" name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" />
   <project groups="default" name="CyanogenMod/android_hardware_msm7k" path="hardware/msm7k" />
-  <project groups="default" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio" />
   <project groups="default" name="CyanogenMod/android_hardware_qcom_gps" path="hardware/qcom/gps" />
   <project groups="default" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media" />
   <project groups="default" name="CyanogenMod/android_hardware_ril" path="hardware/ril" />
@@ -327,14 +326,14 @@
   <project groups="default" name="ParanoidAndroid/android_vendor_pa" path="vendor/pa" revision="d1ecd70a7f2f9965262b843360b021bc861fc036"/>
 
   <!-- PAC -->
-  <project groups="default" name="PAC-man/android" path="android" />
-  <project groups="default" name="PAC-man/android_frameworks_base" path="frameworks/base" />
+  <project name="krislibaeer/platform_manifest" path="android" remote="github" revision="jb-pac" />
+  <project name="krislibaeer/android_frameworks_base" path="frameworks/base" remote="github" revision="jellybean"/>
   <project groups="default" name="PAC-man/android_packages_apps_Contacts" path="packages/apps/Contacts" />
   <project groups="default" name="PAC-man/android_packages_apps_Phone" path="packages/apps/Phone" />
   <project groups="default" name="PAC-man/android_packages_apps_Mms" path="packages/apps/Mms" />
   <project groups="default" name="PAC-man/android_packages_apps_Settings" path="packages/apps/Settings" />
   <project groups="default" name="PAC-man/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
-  <project groups="default" name="PAC-man/android_vendor_pac" path="vendor/pac" />
+  <project name="krislibaeer/android_vendor_pac" path="vendor/pac" remote="github" revision="jellybean"  />
   <project groups="default" name="PAC-man/android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7" path="prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7" revision="refs/heads/master" />
 
   <project groups="default" name="PAC-man/pac" path="pac" >
@@ -345,5 +344,6 @@
 <project name="ivendor/android_frameworks_native" path="frameworks/native" remote="github" revision="jellybean" />
 <project name="ivendor/android_frameworks_av" path="frameworks/av" remote="github" revision="jellybean" />
 <project name="ivendor/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="jellybean" />
+<project name="ivendor/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="jellybean" />
 
 </manifest>
