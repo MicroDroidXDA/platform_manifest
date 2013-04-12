@@ -371,7 +371,7 @@
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
 
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb-mr1" />
+  <project path="platform_manifest" name="krislibaeer/platform_manifest" remote="github" revision="jb4.2-aokp" />
 
 <project name="krislibaeer/android_device_samsung_ariesve" path="device/samsung/ariesve" remote="github" revision="jb-3.0" />
 <project name="xistance21/android_vendor_samsung_ariesve" path="vendor/samsung/ariesve" remote="github" revision="jellybean" />
