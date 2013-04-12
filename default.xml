@@ -348,7 +348,7 @@
 
 
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" remote="github" revision="cm-10.1" />
-  <project path="vendor/supernexus" name="SuperNexus/android_vendor_supernexus" remote="github" revision="jellybean" />
+  <project path="vendor/supernexus" name="MicroDroidXDA/android_vendor_supernexus" remote="github" revision="jellybean" />
 
   <project path="manifest" name="SuperNexus/android_manifest" remote="github" revision="jellybean" />
 
