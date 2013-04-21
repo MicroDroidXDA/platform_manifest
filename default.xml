@@ -358,4 +358,5 @@
 <project name="camcory/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-10.1" />
 <project name="arco/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="cm-10.1" />
 <project name="arco/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" revision="cm-10.1" />
+<project name="MicroDroidXDA/samsung-kernel-msm7x30" path="kernel/samsung/ariesve" remote="github" revision="cm-10.1" />
 </manifest>
