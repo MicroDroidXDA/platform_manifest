@@ -199,7 +199,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/base" name="SuperNexus/android_frameworks_base" remote="github" revision="jellybean" />
-  <remove-project path="frameworks/base/services/input" />
+  <remove-project path="frameworks/base/services/input" name="SuperNexus/android_frameworks_base/tree/jellybean/services/input" remote="github" revision="jellybean"/>
   <project path="frameworks/base/services/input" name="CyanogenMod/android_frameworks_base/tree/cm-10.1/services/input" remote="github" revision="cm-10.1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
